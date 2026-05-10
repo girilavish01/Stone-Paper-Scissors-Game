@@ -1,0 +1,85 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.title{
+background-color: rgba(37, 150, 190);
+color: white;
+height: 50px;
+align-content: center;
+align-items: center;
+font-display: center;
+text-align: center;
+}
+#Stone{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-image: url('https://uploads.onecompiler.io/42vusxpru/44nruemn5/Screenshot_9-5-2026_163440_www.bing.com.jpeg') ;
+  background-size: cover;
+}
+#Stone:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+#Paper{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px solid black;
+  margin: 5px;
+  background-image: url('https://uploads.onecompiler.io/42vusxpru/44nruemn5/Screenshot_9-5-2026_16399_www.bing.com.jpeg');
+  background-size: cover;
+}
+#Paper:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+#Scissors{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px solid black;
+    background-image:url('https://uploads.onecompiler.io/42vusxpru/44nruemn5/Screenshot_9-5-2026_163936_www.bing.com.jpeg');
+  background-size: cover;
+}
+#Scissors:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.bos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+
+}
+/*.bo:hover{
+  opacity: 0.5;
+}*/
+.score-board{
+  display: flex;
+ justify-content: center;
+ align-content: center;
+ font-size: 2rem;
+   gap: 5rem;
+   margin-bottom: 5rem;
+}
+#user-score,#comp-score{
+  font-size: 4rem;
+}
+#msg{
+  background-color: #081b31;
+  color: white;
+  font-size: 2rem;
+// margin-top: remm;
+  display: inline;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+
+
